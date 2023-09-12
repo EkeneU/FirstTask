@@ -13,8 +13,8 @@ public class StageOneRestController {
     @GetMapping("/slack_name/track")
     public StageOneObject getSlack_name() {
         return new StageOneObject("ekene uzodinma", "backend",
-                "",
-                "", "200",
+                "https://github.com/EkeneU/FirstTask/blob/master/FirstTask/src/main/java/com/HNGTask1/FirstTask/FirstTaskApplication.java",
+                "https://github.com/EkeneU/FirstTask", "200",
                 stageOneObject.getCurrent_day(), stageOneObject.getUtc_time());
     }
 }
